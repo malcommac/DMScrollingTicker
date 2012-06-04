@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9CCFE4B1576562B0028EC47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CCFE4A1576562B0028EC47 /* UIKit.framework */; };
+		D9CCFE4D1576562B0028EC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CCFE4C1576562B0028EC47 /* Foundation.framework */; };
+		D9CCFE4F1576562B0028EC47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CCFE4E1576562B0028EC47 /* CoreGraphics.framework */; };
+		D9CCFE551576562B0028EC47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CCFE531576562B0028EC47 /* InfoPlist.strings */; };
+		D9CCFE571576562B0028EC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CCFE561576562B0028EC47 /* main.m */; };
+		D9CCFE5B1576562B0028EC47 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CCFE5A1576562B0028EC47 /* RSAppDelegate.m */; };
+		D9CCFE5E1576562B0028EC47 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CCFE5D1576562B0028EC47 /* RSViewController.m */; };
+		D9CCFE611576562B0028EC47 /* RSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9CCFE5F1576562B0028EC47 /* RSViewController.xib */; };
+		D9CCFE69157656360028EC47 /* DMScrollingTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CCFE68157656360028EC47 /* DMScrollingTicker.m */; };
+		D9CCFE731576679B0028EC47 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CCFE721576679B0028EC47 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9CCFE461576562B0028EC47 /* DMScrollingTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMScrollingTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CCFE4A1576562B0028EC47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9CCFE4C1576562B0028EC47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9CCFE4E1576562B0028EC47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9CCFE521576562B0028EC47 /* DMScrollingTicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMScrollingTicker-Info.plist"; sourceTree = "<group>"; };
+		D9CCFE541576562B0028EC47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9CCFE561576562B0028EC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9CCFE581576562B0028EC47 /* DMScrollingTicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMScrollingTicker-Prefix.pch"; sourceTree = "<group>"; };
+		D9CCFE591576562B0028EC47 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		D9CCFE5A1576562B0028EC47 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		D9CCFE5C1576562B0028EC47 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		D9CCFE5D1576562B0028EC47 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		D9CCFE601576562B0028EC47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSViewController.xib; sourceTree = "<group>"; };
+		D9CCFE67157656360028EC47 /* DMScrollingTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMScrollingTicker.h; sourceTree = "<group>"; };
+		D9CCFE68157656360028EC47 /* DMScrollingTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMScrollingTicker.m; sourceTree = "<group>"; };
+		D9CCFE721576679B0028EC47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9CCFE431576562B0028EC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CCFE731576679B0028EC47 /* QuartzCore.framework in Frameworks */,
+				D9CCFE4B1576562B0028EC47 /* UIKit.framework in Frameworks */,
+				D9CCFE4D1576562B0028EC47 /* Foundation.framework in Frameworks */,
+				D9CCFE4F1576562B0028EC47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9CCFE3B1576562B0028EC47 = {
+			isa = PBXGroup;
+			children = (
+				D9CCFE501576562B0028EC47 /* Example */,
+				D9CCFE491576562B0028EC47 /* Frameworks */,
+				D9CCFE471576562B0028EC47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9CCFE471576562B0028EC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9CCFE461576562B0028EC47 /* DMScrollingTicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9CCFE491576562B0028EC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9CCFE721576679B0028EC47 /* QuartzCore.framework */,
+				D9CCFE4A1576562B0028EC47 /* UIKit.framework */,
+				D9CCFE4C1576562B0028EC47 /* Foundation.framework */,
+				D9CCFE4E1576562B0028EC47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CCFE501576562B0028EC47 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				D9CCFE591576562B0028EC47 /* RSAppDelegate.h */,
+				D9CCFE5A1576562B0028EC47 /* RSAppDelegate.m */,
+				D9CCFE741576B2860028EC47 /* Scrolling Ticker Class */,
+				D9CCFE751576B28D0028EC47 /* Application View Controllers */,
+				D9CCFE511576562B0028EC47 /* Supporting Files */,
+			);
+			name = Example;
+			path = test;
+			sourceTree = "<group>";
+		};
+		D9CCFE511576562B0028EC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9CCFE521576562B0028EC47 /* DMScrollingTicker-Info.plist */,
+				D9CCFE531576562B0028EC47 /* InfoPlist.strings */,
+				D9CCFE561576562B0028EC47 /* main.m */,
+				D9CCFE581576562B0028EC47 /* DMScrollingTicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9CCFE741576B2860028EC47 /* Scrolling Ticker Class */ = {
+			isa = PBXGroup;
+			children = (
+				D9CCFE67157656360028EC47 /* DMScrollingTicker.h */,
+				D9CCFE68157656360028EC47 /* DMScrollingTicker.m */,
+			);
+			name = "Scrolling Ticker Class";
+			sourceTree = "<group>";
+		};
+		D9CCFE751576B28D0028EC47 /* Application View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9CCFE5C1576562B0028EC47 /* RSViewController.h */,
+				D9CCFE5D1576562B0028EC47 /* RSViewController.m */,
+				D9CCFE5F1576562B0028EC47 /* RSViewController.xib */,
+			);
+			name = "Application View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9CCFE451576562B0028EC47 /* DMScrollingTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CCFE641576562B0028EC47 /* Build configuration list for PBXNativeTarget "DMScrollingTicker" */;
+			buildPhases = (
+				D9CCFE421576562B0028EC47 /* Sources */,
+				D9CCFE431576562B0028EC47 /* Frameworks */,
+				D9CCFE441576562B0028EC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMScrollingTicker;
+			productName = test;
+			productReference = D9CCFE461576562B0028EC47 /* DMScrollingTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9CCFE3D1576562B0028EC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D9CCFE401576562B0028EC47 /* Build configuration list for PBXProject "DMScrollingTicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9CCFE3B1576562B0028EC47;
+			productRefGroup = D9CCFE471576562B0028EC47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CCFE451576562B0028EC47 /* DMScrollingTicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9CCFE441576562B0028EC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CCFE551576562B0028EC47 /* InfoPlist.strings in Resources */,
+				D9CCFE611576562B0028EC47 /* RSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9CCFE421576562B0028EC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CCFE571576562B0028EC47 /* main.m in Sources */,
+				D9CCFE5B1576562B0028EC47 /* RSAppDelegate.m in Sources */,
+				D9CCFE5E1576562B0028EC47 /* RSViewController.m in Sources */,
+				D9CCFE69157656360028EC47 /* DMScrollingTicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9CCFE531576562B0028EC47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CCFE541576562B0028EC47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9CCFE5F1576562B0028EC47 /* RSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CCFE601576562B0028EC47 /* en */,
+			);
+			name = RSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9CCFE621576562B0028EC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9CCFE631576562B0028EC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9CCFE651576562B0028EC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/DMScrollingTicker-Prefix.pch";
+				INFOPLIST_FILE = "test/DMScrollingTicker-Info.plist";
+				PRODUCT_NAME = DMScrollingTicker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9CCFE661576562B0028EC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/DMScrollingTicker-Prefix.pch";
+				INFOPLIST_FILE = "test/DMScrollingTicker-Info.plist";
+				PRODUCT_NAME = DMScrollingTicker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9CCFE401576562B0028EC47 /* Build configuration list for PBXProject "DMScrollingTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CCFE621576562B0028EC47 /* Debug */,
+				D9CCFE631576562B0028EC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CCFE641576562B0028EC47 /* Build configuration list for PBXNativeTarget "DMScrollingTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CCFE651576562B0028EC47 /* Debug */,
+				D9CCFE661576562B0028EC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9CCFE3D1576562B0028EC47 /* Project object */;
+}
