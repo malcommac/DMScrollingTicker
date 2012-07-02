@@ -6,6 +6,8 @@ It allows to load any set of UIView subclasses and add to the scrolling queue wi
 
 Daniele Margutti, <http://www.danielem.org>
 
+![DMScrollingTicker Example Project](http://danielemargutti.com/wp-content/uploads/2012/06/DMScrollingTicker.png)
+
 ## How to get started
 
 You can pick between two modes:
